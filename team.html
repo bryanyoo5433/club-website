@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.min.css">
+    
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Our Courses</h1>
+
+</section>
+<!-- ----course---- -->
+<section class="team">
+    <h1>Meet our Team</h1>
+    <p>asldkfjl; aksdjflk;asd jflkajsd;lfkajs df;lkasdjf; lkasjdf</p>
+
+    <div class="profiles">
+        <div class="profile">
+            <img src="images/profile.png" class="profile-img">
+            <h2>Bryan Yoo</h2>
+            <h5>President</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi cupiditate illum sint eum? Libero earum commodi reiciendis? Pariatur molestiae id praesentium quibusdam harum cum placeat asperiores! Culpa, deserunt ut!</p>
+        </div>
+        <div class="profile">
+            <img src="images/profile.png" class="profile-img">
+            <h2 class="user-name">Andrew Lin</h2>
+            <h5>Vice President</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi cupiditate illum sint eum? Libero earum commodi reiciendis? Pariatur molestiae id praesentium quibusdam harum cum placeat asperiores! Culpa, deserunt ut!</p>
+        </div>
+        <div class="profile">
+            <img src="images/profile.png" class="profile-img">
+            <h2 class="user-name">Lilian Xu</h2>
+            <h5>Project Manager</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi cupiditate illum sint eum? Libero earum commodi reiciendis? Pariatur molestiae id praesentium quibusdam harum cum placeat asperiores! Culpa, deserunt ut!</p>
+    </div>
+</section>
+
+<!-- Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nam accusamus nostrum. <br>Corporis, at in! Recusandae libero at dolores omnis laborum, fugiat sunt quae deserunt, <br> nam minus impedit voluptates. Itaque.</p>
+    <div class="icons">
+        <i class="fab fa-2x fa-facebook"></i>
+        <i class="fab fa-2x fa-twitter"></i>
+        <i class="fab fa-2x fa-instagram"></i>
+        <i class="fab fa-2x fa-linkedin"></i>
+    </div>
+    <p>Made by Bryan Yoo</p>
+</section>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
