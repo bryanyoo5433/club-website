@@ -326,7 +326,11 @@ p{
     position: relative;
     cursor: pointer;
 }
-
+.normal-btn:hover{
+    border: 1px solid crimson;
+    background: crimson;
+    transition: 0.5s;
+}
 @media(max-width: 700px){
     .cta h1{
         font-size: 24px;
