@@ -7,7 +7,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/home.jpg);
+    background-color: #154854;
+    /* linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/home.jpg); */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -42,7 +43,7 @@ nav img{
     content: '';
     width: 0%;
     height: 3px;
-    background: crimson;
+    background: #ee826c;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -165,13 +166,13 @@ nav img{
         color: #fff;
     }
     100%{
-        border: 2px solid crimson;
+        border: 2px solid #ee826c;
         color: #fff;
     }
 }
 .hero-btn:hover{
-    border: 1px solid crimson;
-    background: crimson;
+    border: 1px solid #ee826c;
+    background: #ee826c;
     transition: 0.5s;
 }
 
@@ -222,7 +223,7 @@ nav .fa{
     }
     .nav-links {
         position: fixed;
-        background: crimson;
+        background: #ee826c;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -259,7 +260,7 @@ h1{
     font-weight: 600;
 }
 p{
-    color: #777;
+    color:gray;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -274,22 +275,30 @@ p{
 
 .course-col{
     flex-basis: 31%;
-    background: #d0f0fd;
+    background: #EE826C;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.4s;
     text-decoration: none;
-    color:#000;
+    color:#fff;
 }
 .course-col:hover{
-    box-shadow: 0 0 30px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.7);
+}
+.row p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
 .row h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    font-size: 22px;
 }
 
 @media(max-width: 700px){
@@ -327,8 +336,8 @@ p{
     cursor: pointer;
 }
 .normal-btn:hover{
-    border: 1px solid crimson;
-    background: crimson;
+    border: 1px solid #ee826c;
+    background: #ee826c;
     transition: 0.5s;
 }
 @media(max-width: 700px){
@@ -342,7 +351,8 @@ p{
     width: 100%;
     text-align: center;
     padding: 30px 0;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/home.jpg);
+    background-color: #154854;
+    /* linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/home.jpg); */
     background-position: center;
     background-size: cover;
 }
@@ -356,7 +366,7 @@ p{
     color: #fff;
 }
 .icons .fab{
-    color: crimson;
+    color: #ee826c;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -369,7 +379,8 @@ p{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/files.jpg);
+    background-color: #154854;
+    /* linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/files.jpg); */
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -406,9 +417,9 @@ p{
     padding: 15px 0 25px;
 }
 .red-btn{
-    border:  1px solid crimson;
+    border:  1px solid #ee826c;
     background: transparent;
-    color: crimson;
+    color: #ee826c;
 }
 .red-btn:hover{
     color: #fff;
@@ -418,7 +429,8 @@ p{
 .mission{
     margin: 70px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/home.jpg);
+    background-color: #62848D;
+    /* linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/home.jpg); */
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -510,13 +522,13 @@ p{
 }
 .contact-col div .fas{
     font-size: 28px;
-    color: crimson;
+    color: #ee826c;
     margin: 10px;
     margin-right: 30px;
 }
 .contact-col div .far{
     font-size: 28px;
-    color: crimson;
+    color: #ee826c;
     margin: 10px;
     margin-right: 30px;
 }
