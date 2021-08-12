@@ -540,6 +540,7 @@ p{
 }
 .contact-col div p{
     padding: 0;
+    color: gray;
 }
 .contact-col input, .contact-col textarea{
     width: 100%;
