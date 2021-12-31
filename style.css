@@ -77,6 +77,7 @@ nav img{
 .text-box span{
     display: block;
 }
+
 .text1{
     color: #fff;
     font-size: 62px;
@@ -85,6 +86,10 @@ nav img{
     background: transparent;
     position: relative;
     animation: text1 3s 1 forwards;
+}
+.text1 #two{
+    display: inline;
+    animation: two 3s 1 forwards;
 }
 .text2{
     font-size: 15px;
@@ -114,6 +119,29 @@ nav img{
         letter-spacing: 5px;
         margin-bottom: 0;
         color: #fff;
+    }
+}
+@keyframes two {
+    0%{
+        color: #fff;
+        margin-bottom: -50px;
+        color: transparent;
+    }
+
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -50px;
+        color: rgba(255, 255, 255, 0.281);
+    }
+    85%{
+        letter-spacing: 10px;
+        margin-bottom: -50px;
+        color: rgba(255, 255, 255, 0.685);
+    }
+    100%{
+        letter-spacing: 5px;
+        margin-bottom: 0;
+        color: #ee826c;
     }
 }
 @keyframes text2 {
@@ -612,3 +640,15 @@ p{
         margin-right: 5%;
       }
   }
+/* material section */
+.material{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+.material iframe{
+    height: 300px;
+    width: 100%;
+    border: 1px solid gray;
+}
