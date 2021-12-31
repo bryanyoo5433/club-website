@@ -502,18 +502,34 @@ p{
 .location{
     width: 80%;
     margin: auto;
-    padding: 80px 0;
+    text-align: center;
+    padding: 50px 0;
 }
 .location iframe{
     width: 100%;
+    margin-top: 5%;
 }
 .contact-us{
     width: 80%;
     margin: auto;
 }
+.contact-us .row{
+    display: flex;
+    justify-content: space-between;
+}
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
+}
+#info{
+    margin-top: 10px;
+    margin-right: 10%;
+}
+.contact-col h3{
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 22px;
+    text-align: justify;
 }
 .contact-col div{
     display: flex;

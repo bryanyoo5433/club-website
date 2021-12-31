@@ -34,13 +34,14 @@
 </section>
 <!-- Contact us -->
 <section class="location">
+    <h1>Location</h1>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858312.9296870729!2d-117.66804148429327!3d32.82446435180875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1627885745124!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 
 
 <section class="contact-us">
     <div class="row">
-        <div class="contact-col">
+        <div class="contact-col" id="info">
             <div>
                 <i class="fas fa-home"></i>
                 <span>
@@ -63,29 +64,30 @@
                 </span>
             </div>
         </div>
-
-<div class="contact-col">
-
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScJPz9FmhtUT5g4LCAmeHbCbNm6WzRUh4BdaNCtLlsBTHl13Q/formResponse" method="post">
-        <input type="text" name="entry.1735315684" placeholder="Enter your name" required>
-        <input type="text" name="entry.1928790712" placeholder="Enter email address" required>
-        <input type="text" name="entry.1715520448" placeholder="Enter your subject" required>
-        <textarea rows="8" name="entry.1982611799" placeholder="Message" required></textarea>
-        <button type="submit" class="normal-btn hero-btn red-btn">Send Message</button>
-
+        <div class="contact-col" id="form">
+            <h3>Message</h3>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScJPz9FmhtUT5g4LCAmeHbCbNm6WzRUh4BdaNCtLlsBTHl13Q/formResponse" method="post">
+                <input type="text" name="entry.1735315684" placeholder="Enter your name" required>
+                <input type="text" name="entry.1928790712" placeholder="Enter email address" required>
+                <input type="text" name="entry.1715520448" placeholder="Enter your subject" required>
+                <textarea rows="8" name="entry.1982611799" placeholder="Message" required></textarea>
+                <button type="submit" class="normal-btn hero-btn red-btn">Send Message</button>
         
-    </form>
-    
-    <!-- <form action="email.php" method="POST">
-        <input type="text" name="name" placeholder="Enter your name" required>
-        <input type="email" name="email" placeholder="Enter email address" required>
-        <input type="text" name="subject" placeholder="Enter your subject" required>
-        <textarea rows="8" name="message" placeholder="Message" required></textarea>
-        <button type="submit" class="normal-btn hero-btn red-btn">Send Message</button>
-    </form> -->
+                
+            </form>
+            
+            <!-- <form action="email.php" method="POST">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="normal-btn hero-btn red-btn">Send Message</button>
+            </form> -->
+        
+        
+        </div>
+    </div>
 
-
-</div>
 
 </section>
 
