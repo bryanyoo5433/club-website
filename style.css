@@ -199,7 +199,7 @@ nav img{
     }
 }
 .hero-btn:hover{
-    border: 1px solid #ee826c;
+    border: 2px solid #ee826c;
     background: #ee826c;
     transition: 0.5s;
 }
@@ -294,7 +294,14 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-
+li{
+    color:gray;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin-left: 16px;
+}
 .row{
     margin-top: 5%;
     display: flex;
@@ -489,19 +496,18 @@ p{
     text-align: center;
     padding-top: 70px;
 }
-.profiles{
+/* .profiles{
     display: flex;
     justify-content: space-around;
     margin: 20px 20px;
-}
+} */
 .profile{
     flex-basis: 260px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .profile .profile-img{
-    height: 260px;
-    width: 260px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
 .profile h2{
@@ -679,4 +685,101 @@ p{
     .grid-content{
         grid-template-columns: 100%;
     }
+}
+
+/* hackathon section */
+.hackathon{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.hack-events{
+    margin: 50px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/spreadlove.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+.hack-events h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+ /* spreadlove */
+ .home{
+    background-color: #E9DAC1;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    padding-right: 5%;
+    width: 100vh;
+}
+.child1 h1{
+    font-size: 70px;
+    color: #d72631;
+}
+.child1 p{
+    color: black;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.child1 .normal-btn{
+    border: 2px solid #f85c70;
+    background: white;
+    color: #f85c70;
+    font-size: 15px;
+    margin: 0 1% ;
+    padding: 4px 8px;
+    transition: 0.5s; 
+}
+.child1 .normal-btn:hover{
+    border: 2px solid #f85c70;
+    background: #f85c70;
+    transition: 0.3s; 
+    color: white;
+}
+.child2{
+    padding-left: 5%;
+    width: 100vh;
+}
+#spreadlove-footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #E9DAC1;
+}
+#spreadlove-footer p{
+    color: white;
+}
+/* team stuff */
+.team-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.team-section h1{
+    padding-bottom: 30px;
+}
+.wrapper-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+    width: 100%;
+}
+.box{
+    background-color: blueviolet;
+    height: 200px;
+    margin: 5px;
 }
