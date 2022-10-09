@@ -371,7 +371,7 @@ li{
     cursor: pointer;
 }
 .normal-btn:hover{
-    border: 1px solid #ee826c;
+    border: 2px solid #ee826c;
     background: #ee826c;
     transition: 0.5s;
 }
