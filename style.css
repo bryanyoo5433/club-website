@@ -783,3 +783,14 @@ sponsors */
 #sponsor-h1{
     text-align: left;
 }
+
+#s2c-title{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#s2c-title:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+}
