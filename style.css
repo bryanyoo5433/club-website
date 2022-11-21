@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.1rem;
+    box-sizing: border-box;
 }
 .header{
     min-height: 100vh;
@@ -502,8 +503,9 @@ li{
     margin: 20px 20px;
 } */
 .profile{
-    flex-basis: 260px;
-    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .profile .profile-img{
     height: 200px;
@@ -519,19 +521,7 @@ li{
     font-weight: 400;
     color: #555;
 }
-@media(max-width: 1150px){
-    .profiles{
-        flex-direction: column;
-    }
-    .profile{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .profile p{
-        text-align: center;
-    }
-}
+
 
 /* ------contact us page---- */
 .location{
@@ -782,4 +772,14 @@ li{
     background-color: blueviolet;
     height: 200px;
     margin: 5px;
+}
+/* 
+sponsors */
+.sponsor-logo{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px 20px;
+}
+#sponsor-h1{
+    text-align: left;
 }
