@@ -794,3 +794,10 @@ sponsors */
     color: white;
     transition: 0.3s;
 }
+
+.sponsors{
+    transition: transform 0.3s;
+}
+.sponsors:hover{
+    transform: scale(1.1);
+}
