@@ -713,7 +713,7 @@ li{
 }
 .child1{
     padding-right: 5%;
-    width: 100vh;
+    width: 100vh
 }
 .child1 h1{
     font-size: 70px;
@@ -742,6 +742,15 @@ li{
 .child2{
     padding-left: 5%;
     width: 100vh;
+    animation: fade-in 3s;
+}
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 #spreadlove-footer{
     width: 100%;
@@ -801,3 +810,4 @@ sponsors */
 .sponsors:hover{
     transform: scale(1.1);
 }
+
